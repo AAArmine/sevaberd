@@ -1,0 +1,165 @@
+.offers_details_sec{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0 0;
+}
+.img_offer{
+    width: 50%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+}
+.offer_item{
+    background-color: white;
+}
+.offer_text{
+    font-size: 14px;
+    font-weight: 900;
+}
+.offer_title{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.bookdates{
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 8px;
+} 
+.bookdates::placeholder{
+    color: rgb(14, 13, 13) !important;
+    font-weight: 800;
+}
+
+.flex-book-inputs{
+    justify-content: space-between;
+}
+.arrival-date, .departure-date{
+    width: 46%;
+}
+
+.dateText{
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.booking-padding-mt{
+    margin-top: 30px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+.bookdates2{
+    width: 182px;
+    
+}
+.bookdates2::placeholder{
+    font-size: 12px;
+    padding: 8px;
+}
+.bookButton, .reserve_submit{
+    padding: 9px;
+    background-color: var(--main);
+    color: var(--white);
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    letter-spacing: 1px;
+    transition: background-color 1s;
+}
+.reserve_submit:hover, .bookButton:hover{
+    background-color: rgb(56, 47, 47);
+}
+.offer_item{
+    position: relative;
+    top:-100px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px grey;
+    width: 50%;
+}
+.reserve_item{
+    padding: 28px 28px 68px 28px;
+}
+.go_back{
+    background-color: #5F6B81;
+    padding: 9px;
+    color: var(--white);
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 49px;
+    width: 150px;
+    letter-spacing: 1px;
+    transition: background-color 1s;
+    margin-left: 10px;
+}
+.go_back:hover{
+    background-color: #444A59;
+    color: white;
+}
+.buttons{
+    margin: auto;
+    width: 105%;
+    text-align: center;
+}
+
+/* reserve modal css */
+.close{
+    padding: 7px 10px !important;
+}
+.closeRight{
+    text-align: right;
+}
+.modalBody{
+    padding: 15px;
+}
+.modal-content{
+    background-color:#f6f9ec!important;
+    padding: 15px;
+}
+.modalBody{
+    padding-top: 0px !important;
+}
+.inpCaption{
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.btn-default{
+    margin-top: -3px !important;
+}
+.reserve_error{
+    font-size:11px;
+    color: #bd1414;
+    font-weight: 600;
+}
+.custom-checkbox > label{
+    font-size: 12px;
+    font-weight: 700;
+
+}
+#imageLoading{
+    width: 50px;
+}
+.modal-content2{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.modal-body-result{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* end modal css */
+

@@ -1,0 +1,240 @@
+.nav-tabs{
+    border: none!important;
+}
+.nav-tabs li{
+    margin-right: 40px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.2px 0.5px black;
+    color: black !important;
+    
+}
+.nav-tabs li a{
+    color: black;
+    border: none!important;
+}
+.nav-tabs:hover{
+    border: none!important;
+}
+.active{
+    color: var(--main)!important;
+    border: none!important;
+}
+.about_title{
+
+    margin: 50px 0;
+    text-align:center;
+}
+.about-caption{
+    font-weight:900;
+    font-size: 26px;
+}
+.pics_top{
+    justify-content: space-between;
+}
+
+.pics_top_item1{
+    width: 56%;
+    min-height: 464px;
+}
+.pics_top_item1, .pics_top_item2_1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.pics_top_item2_1{
+    min-height: 224px;
+}
+.pics_top_item2_2{
+    margin-top:15px;
+}
+
+.pics_top_item2{
+    width:42%;
+
+}
+.main_text_about{
+    padding-top:25px;
+    font-size: 15px;
+    font-weight:900;
+    text-indent: 20px;
+    color: black;
+}
+
+/* by numbers section */
+.by_numbers{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.by_numbers_title{
+    margin-bottom: 24px;
+}
+.by_numbers_title_text{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.by_numbers_flex{
+    justify-content: space-between;
+}
+.by_numbers_item{
+    width: 23%;
+    text-align: center;
+}
+.by_numbers_item_number{
+    color: var(--main);
+    text-shadow: 1px 0.5px 0.5px var(--main);
+    font-size: 60px;
+    font-weight: 900;
+}
+.by_numbers_item_text{
+    font-weight: 900;
+}
+.special-offers-caption {
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.2px 0.5px black;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* our staff */
+
+.opinions_sec{
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+.opinions_display{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    width: 70%;
+    margin: auto;
+}
+.opinions_item{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.opinionImgCircle{
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.card_opinions{
+    width: 100%;
+    margin: auto;
+}
+.opinions_text_item{
+    text-align: center;
+}
+.opinions_name_div{
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-size: 17px;
+    text-shadow: 0.5px 0.5px 1px;
+}
+.opinions_name_text{
+    overflow: hidden; 
+    margin-top: 7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.container-carusel{
+    width: 1000px !important;
+    margin: auto !important;
+}
+/* .container-carusel {
+    width: 54% !important;
+    margin: auto!important;
+} */
+.owl-prev{
+    display: block !important;
+    position: absolute;
+    left: -19px;
+  }
+  .owl-next{
+    display: block !important;
+    right: -19px;
+    position: absolute;
+    
+  }
+
+
+
+  /* subs section */
+
+.borderError{
+    border: 1px solid red !important;
+}
+
+.subscribe-section {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.subs-inp {
+    padding: 7px;
+    width: 18%;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid grey;
+}
+.subs-inp::placeholder{
+    font-size:13px;
+}
+.subscribe-caption{
+    font-size: 19px;
+    font-weight: 900;
+    top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.under-subSection-border{
+    margin: 50px 0;
+    border-bottom: 1px solid grey;
+}
+.subsPhoneError, .subsEmailError{
+    margin-top: 20px;
+    font-size: 11px;
+    color: red;
+    font-weight: 600;
+    display:none;
+}
+.submit_success, .subscribe_success{
+    color: rgb(22, 160, 40);
+    font-size: 11px;
+    display:none;
+    max-height: 0px;
+}
+
+.bookButton {
+    padding: 9px;
+    background-color: var(--main);
+    color: var(--white);
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    letter-spacing: 1px;
+    transition: background-color 1s;
+}
+.subs-inp{
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+

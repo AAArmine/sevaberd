@@ -1,0 +1,2 @@
+<?php
+include "../newsSevaberd.php";

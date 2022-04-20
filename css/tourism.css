@@ -1,0 +1,522 @@
+.mainTopImg{
+    width: 100%;
+    /* background-image: url('../images/guesthouseMain2.jpg');   */
+    background-image: url('../images/tourism_main.jpg');  
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.mainTopImg, .mainTopImgFlex-item1{
+    height: 540px;
+    background-color: rgb(41 37 37 / 61%);
+}
+.mainTopImgFlex-item1, .mainTopImgFlex-item2{
+    width: 50%;
+    color: white;
+}
+.mainTopImgFlex-item1{
+    position: relative;
+}
+.mainTopTitle{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.mainTopText{
+    font-size: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    font-weight: 500
+}
+.center_maintop{
+    width: 400px;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.about_sec_guesthouse{
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.about_guest_item1{
+    width: 43%;
+}
+.about_guest_item2{
+    width: 50%;
+    justify-content: space-between;
+}
+.about_guest_item1 h3{
+    padding-top: 120px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    margin-bottom: 15px;
+}
+.about_guest_item1 p{
+    font-weight: 900;
+    font-size: 15px;
+    padding-bottom: 120px;
+
+}
+.about_guest_item_img1{
+    background-image: url('../images/tourism_about1.jpg');  
+    margin-top: 30px;
+}
+.about_guest_item_img1, .about_guest_item_img2{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:400px;
+    width: 48%;
+}
+
+.about_guest_item_img2{
+    background-image: url('../images/tourism_about2.jpg');  
+
+}
+
+.gallery{
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.gallery_item{
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s;
+}
+.gallery_item:hover{
+    opacity: 0.5;
+}
+.gallery_item1{
+    background-image: url('../images/tourism1.jpg');  
+}
+.gallery_item2{
+    background-image: url('../images/tourism2.jpg');  
+}
+.gallery_item3{
+    background-image: url('../images/tourism3.jpg');  
+}
+.gallery_item4{
+    background-image: url('../images/tourism4.jpg');  
+}
+.special-offers-caption{
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.2px 0.5px black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* by numbers section */
+.by_numbers{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.by_numbers_title{
+    margin-bottom: 24px;
+}
+.by_numbers_title_text{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.by_numbers_flex{
+    justify-content: space-between;
+}
+.by_numbers_item{
+    width: 23%;
+    text-align: center;
+}
+.by_numbers_item_number{
+    color: var(--main);
+    text-shadow: 1px 0.5px 0.5px var(--main);
+    font-size: 60px;
+    font-weight: 900;
+}
+.by_numbers_item_text{
+    font-weight: 900;
+}
+
+.special-offers-sec{
+    background-color: #F1EDEB;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.special-offers-caption{
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.2px 0.5px black;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.special-offers-flex, .tur-flex{
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.special-offers-item1, .special-offers-item2, .special-offers-item3, .tourism-item1, .tourism-item2, .tourism-item3{
+    width: 31%;
+}
+.special-offers-img{
+    background-color: aqua;
+    height: 450px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.special-offers-subcaption{
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow: 0.5px 0.2px 0.5px black;
+    text-align: left;
+}
+.tourism_subcaption{
+    font-size: 21px;
+    font-weight: 900;
+}
+.special-offers-text{
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tur_main_text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-weight: 300;
+    display: none;
+    color: white;
+}
+.special-offers-item1, .tourism-item1{
+    display: none;
+    cursor: pointer;
+}
+.spOfferBorder, .tourismBorder{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.offerNavItem1, .tourismNavItem1{
+    width: 10%;
+}
+.spOfferNavigator, .tourismNavigator{
+    width: 80%;
+    margin: auto;  
+}
+.tourismNavigator{
+    padding-bottom: 50px;
+}
+.left_right{
+    width:30px;
+}
+.spOfferBorder_bottom, .tourismBorder_bottom{
+    border-bottom: 3px solid black;
+}
+.spOfferBorder_item, .tourismBorder_item{
+    width:100%;
+}
+.left_sp_offer, .right_sp_offer, .left_tourism, .right_tourism{
+    padding:8px 0;
+    cursor: pointer;
+}
+.tourism-img1{
+    text-shadow: 0.5px 0.5px 3px black;
+    text-align: center;
+    color: white;
+}
+.tur_abs{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 15px;
+    z-index: 10;
+    text-shadow: 0.5px 0.5px 3px black;
+    color: white;
+}
+.tur_main_text_top{
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    height: 4px;
+    border-radius: 15px;
+    margin-top: 4px;
+    margin-bottom: 10px !important;
+}
+}
+
+
+
+@media screen and (max-width: 1124px){
+    .reservation_flex{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .res_flex_item {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .reservation_title {
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 1273px){
+    .special-offers-img1,.special-offers-img {
+        height: 271px;
+    }
+    .gallery_item {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1002px){
+
+    .gallery_item {
+        height: 150px;
+    }
+    .gallery {
+        margin-bottom: 0px;
+    }
+    .about_guest_item_img1, .about_guest_item_img2 {
+        height: 330px;
+    }
+    .about_sec_guesthouse {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 888px){
+
+    .offerNavItem1, .tourismNavItem1 {
+        width: 15%;
+    }
+    .by_numbers {
+        padding-top: 112px!important;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+.special-offers-flex, .tur-flex {
+    width: 92%;
+    flex-wrap: wrap;
+}
+.special-offers-item1, .tourism-item1{
+    width: 60%;
+    margin-bottom: 50px;
+}
+.special-offers-caption {
+    padding-top: 20px;
+}
+.tourism_subcaption {
+    font-size: 18px;
+}
+.tur_main_text {
+    font-size: 13px;
+}
+
+}
+
+@media screen and (max-width: 665px){
+    .about_guest_item_img1, .about_guest_item_img2 {
+        height: 265px;
+    }
+    .by_numbers {
+        padding-top: 52px!important;
+    }
+    .about_guest_item2 {
+        width: 100% !important;
+    }
+    .special-offers-caption {
+        font-size: 15px;
+    }
+
+    .special-offers-item1, .tourism-item1 {
+        margin-bottom: 25px;
+    }
+    .offerNavItem1, .tourismNavItem1 {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 508px){
+
+    .title_gallery {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 425px){
+
+    .special-offers-item1, .tourism-item1{
+        width: 80%;
+    }
+    
+    .tourism_section {
+        padding-top: 0 !important;
+    }
+
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery_item{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .special-offers-img1, .special-offers-img {
+        height: 200px;
+    }
+    .offerNavItem1, .tourismNavItem1 {
+        width: 30%;
+    }
+    .tourism_subcaption {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+}
+@media screen and (max-width: 357px){
+    .res_flex_item {
+        width: 90%;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 350px){
+    .offerNavItem1, .tourismNavItem1 {
+        width: 35%;
+    }
+    .title_gallery {
+        margin-top: -73px;
+    }
+}
+
+
+
+@media screen and (max-width: 866px){
+
+    .mainTopImgFlex-item1{
+        width: 100%;
+    }
+    .mainTopImgFlex-item2{
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .mainTopImg, .mainTopImgFlex-item1 {
+        height: 305px;
+    }
+    .about_sec_guesthouse {
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+    .about_guest_item1{
+        width: 100%;
+    }
+    .about_guest_item2{
+        width: 70%;
+        height:250px;
+    }
+    .about_guest_item1 p {
+        padding-bottom: 40px;
+    }
+    .about_guest_item1 h3 {
+        padding-top: 20px;
+    }
+
+    .special-offers-sec {
+        padding: 10px 0;
+    }
+
+    .special-offers-caption {
+        margin-bottom:25px;
+    }
+    .by_numbers {
+        padding-bottom: 69px;
+        padding-top: 50px;
+    }
+    .by_numbers_flex{
+        flex-wrap:wrap;
+        justify-content:space-around;
+        
+    }
+    .by_numbers_item{
+        width:45%;
+        margin-top:20px;
+    }
+    .by_numbers_title_text {
+        margin-bottom: 10px;
+    }
+
+    
+}
+@media screen and (max-width: 425px){
+    .center_maintop {
+        text-align: center !important;
+        width: 300px;
+    }
+    .mainTopText {
+        font-size: 14px;
+    }
+    .mainTopText {
+        -webkit-line-clamp: 8;
+    }
+
+    .by_numbers_item {
+        width: 65%;
+    }
+    .by_numbers {
+        padding-bottom: 20px;
+    }
+
+        .special-offers-caption {
+        margin-bottom: 15px;
+    }
+    
+}
+@media screen and (max-width: 373px){
+    
+    .mainTopTitle {
+        font-size: 19px;
+    }
+    .mainTopText {
+        line-height: 19px;
+    }
+    .tur_main_text {
+        font-size: 11px;
+    }
+    
+}

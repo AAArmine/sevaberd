@@ -1,0 +1,2 @@
+<?php
+include "../blogArmenia.php";

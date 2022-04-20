@@ -1,0 +1,2 @@
+<?php
+include "../blogEntertainment.php";

@@ -1,0 +1,920 @@
+body{
+    position: relative;
+    scroll-behavior:smooth;
+}
+#scrollValue{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.booking-flex{
+    background-image: url('../images/IMG_main_home.jpg');  
+    background-size: 100vw;
+    /* background-size: contain; */
+    /* height: 550px; */
+    background-repeat:no-repeat;
+    justify-content: space-between;
+    background-attachment:fixed;
+}
+.booking-flex-item1, .booking-flex-item2{
+    width: 50%;
+}
+.booking-flex-item1{
+    padding-top: 160px;
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 160px;
+    background-color: rgb(0 0 0 / 35%);
+}
+
+.title-bookPart{
+    font-weight: 900;
+    font-size: 28px;
+    text-shadow: 0.5px 0 0 var(--white);
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+.bookdates{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 8px;
+} 
+.flex-book-inputs{
+    justify-content: space-around;
+}
+.arrival-date, .departure-date{
+    width: 46%;
+}
+.booking-padding{
+    padding: 0px 134px;
+    text-align: left;
+}
+.dateText{
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.booking-padding-mt{
+    margin-top: 30px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+.bookdates2{
+    width: 182px;
+    
+}
+
+.bookdates2::placeholder{
+    font-size: 12px;
+    padding: 8px;
+    
+}
+.bookButton{
+    padding: 9px;
+    background-color: var(--main);
+    color: var(--white);
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 49px;
+    width: 150px;
+    letter-spacing: 1px;
+    transition: background-color 1s;
+}
+.bookdates::placeholder{
+    color: rgb(14, 13, 13) !important;
+    font-weight: 800;
+}
+
+.bookButton:hover{
+    background-color: rgb(56, 47, 47);
+}
+.subscribe-section {
+    width: 80%;
+    margin: auto;
+    margin-bottom: -15px;
+}
+.subs-inp {
+    padding: 7px;
+    width: 18%;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid grey;
+}
+.subs-inp::placeholder{
+    font-size:13px;
+}
+.subscribe-caption{
+    font-size: 19px;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+}
+.under-subSection-border{
+    margin: 50px 0;
+    border-bottom: 1px solid grey;
+}
+.about-section{
+    justify-content: space-between;
+    width:80%;
+    margin:auto;
+    margin-bottom: 100px;
+}
+.about-section-item1, .about-section-item2{
+    width:50%;
+
+}
+.about-section-item2{
+    background-image: url('../images/about_us_main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+}
+.about-title{
+    margin-top: 100px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    font-size: 23px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    letter-spacing: 1px;
+}
+.about-text{
+    font-size: 15px;
+    margin-right: 100px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    font-weight: 800;
+} 
+.read-about-but{
+    margin-top:25px;
+}  
+
+.main-directions-sec{
+    width:100%;
+    text-align:center;
+    position: relative;
+    padding-top: 102px;
+    padding-bottom: 53px;
+    overflow: hidden;
+}    
+.directions-title{
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    font-weight: 900;
+}   
+.main-directions-flex{
+    justify-content: space-between;
+}
+.main-directions-item1, .main-directions-item2, .main-directions-item1-2, .main-directions-item1-3{
+    width:50%;
+}
+.main-directions-item1{
+    background-image: url('../images/directions.png');  
+}
+.main-directions-item1, .main-directions-item1-2, .main-directions-item1-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+.main-directions-item1-2{
+    background-image: url('../images/directions2.png');  
+}
+.main-directions-item1-3{
+    background-image: url('../images/directions3.png');  
+}
+.main-directions-item2{
+    text-align: left;
+    padding-left: 180px;
+}
+.about-title-colored{
+    color: var(--main);
+    text-shadow: 0.5px 0.5px 0.5px var(--main);
+}
+.abs-line{
+    position: absolute;
+    top:180px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.plane-abs{
+    position: absolute;
+    top: 148px;
+    left: 53.1%;
+    /* transform: translateX(-50%); */
+    transform: rotate(-14deg);
+    z-index: 999;
+    /* transition: top 0.3s; */
+    /* display: none; */
+}
+
+.abs-line-img{
+    width: 71.8%;
+}
+.abs-plane-img{
+    width: 70%;
+}
+.special-offers-sec{
+    background-color: #F1EDEB;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.special-offers-caption{
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.2px 0.5px black;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.special-offers-flex, .tur-flex{
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.special-offers-item1, .special-offers-item2, .special-offers-item3, .tourism-item1, .tourism-item2, .tourism-item3{
+    width: 31%;
+}
+.special-offers-img{
+    background-color: aqua;
+    height: 450px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* url-nery ciklov dnel himnakan ejum */
+.special-offers-img1{
+    height: 350px;
+} 
+
+.special-offers-subcaption{
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow: 0.5px 0.2px 0.5px black;
+    text-align: left;
+}
+.tourism_subcaption{
+    font-size: 21px;
+    font-weight: 900;
+}
+.special-offers-text{
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tur_main_text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-weight: 300;
+    display: none;
+}
+.special-offers-item1, .tourism-item1{
+    display: none;
+    cursor: pointer;
+}
+.spOfferBorder, .tourismBorder{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.offerNavItem1, .tourismNavItem1{
+    width: 10%;
+}
+.spOfferNavigator, .tourismNavigator{
+    width: 80%;
+    margin: auto;  
+}
+.tourismNavigator{
+    padding-bottom: 50px;
+}
+.left_right{
+    width:30px;
+}
+.spOfferBorder_bottom, .tourismBorder_bottom{
+    border-bottom: 3px solid black;
+}
+.spOfferBorder_item, .tourismBorder_item{
+    width:100%;
+}
+.left_sp_offer, .right_sp_offer, .left_tourism, .right_tourism{
+    padding:8px 0;
+    cursor: pointer;
+}
+.special-offers-item1 a{
+    color: black;
+    text-decoration: none;
+}
+.tourism-img1{
+    text-shadow: 0.5px 0.5px 3px black;
+    text-align: center;
+    color: white;
+}
+.tur_abs{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 15px;
+}
+.tur_main_text_top{
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    height: 4px;
+    border-radius: 15px;
+    margin-top: 4px;
+    margin-bottom: 10px !important;
+}
+.opinions_sec{
+    margin-top: 70px;
+}
+.opinions_display{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    width: 70%;
+    margin: auto;
+}
+.opinions_item{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.opinionImgCircle{
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.card_opinions{
+    width: 100%;
+    margin: auto;
+}
+.opinions_text_item{
+    text-align: center;
+}
+.opinions_name_div{
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-size: 17px;
+}
+.opinions_name_text{
+    overflow: hidden; 
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    font-weight: 600;
+    font-size: 13px;
+    max-height: 143px;
+}
+.quoteImg{
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.contact_us{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.contact_inputs{
+    width: 56%;
+}
+.title_contact{
+    margin-top: 40px;
+}
+.inputs_contact{
+    width: 87%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.inputs_contact_input{
+    border: 1px solid grey;;
+}
+.contact_inputs label{
+    text-shadow: 0.4px 0 0 black;
+    font-size: 14px;
+}
+.inputs_contact > input::placeholder, .inputs_contact > textarea {
+    text-shadow: 0.4px 0 0 black;
+    font-size: 14px;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 520px;
+    width: 479px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 520px;
+    width: 479px;
+}
+.send_button{
+    width: 87%;
+    text-align: right;
+}
+.send_cont_but{
+    margin-top: 18px;
+}
+.contError{
+    font-size: 11px;
+    color: red;
+    font-weight: 600;
+    display:none;
+    margin-left: 20px;
+}
+.borderError{
+    border: 1px solid red !important;
+}
+.subsPhoneError, .subsEmailError{
+    margin-top: 20px;
+    font-size: 11px;
+    color: red;
+    font-weight: 600;
+    display:none;
+}
+.gallery{
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.gallery_item{
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s;
+}
+.gallery_item:hover{
+    opacity:0.5;
+}
+.gallery_item1{
+    background-image: url('../images/image2.jpg');  
+}
+.gallery_item2{
+    background-image: url('../images/image22.jpg');  
+}
+.gallery_item3{
+    background-image: url('../images/image3.jpg');  
+}
+.gallery_item4{
+    background-image: url('../images/image4.jpg');  
+}
+.gallery_item:hover{
+    opacity: 0.5;
+}
+.title_gallery{
+    margin-top: 100px;
+}
+.submit_success, .subscribe_success{
+    color: rgb(22, 160, 40);
+    font-size: 11px;
+    display:none;
+    max-height: 0px;
+}
+.carousel-opinions{
+    width: 90%;
+    margin: auto;
+}
+.directions_img_fon{
+    background-image: url('../images/directions.png');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -190px;
+    z-index: -2;
+    opacity: 0.5;
+    background-size: 70%;
+    /* 11!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    display: none;
+}
+
+/* reserve modal css */
+.close{
+    padding: 7px 10px !important;
+}
+.closeRight{
+    text-align: right;
+}
+.modalBody{
+    padding: 15px;
+}
+.modal-content{
+    background-color:#f6f9ec!important;
+    padding: 15px;
+}
+.modalBody{
+    padding-top: 0px !important;
+}
+.inpCaption{
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.btn-default{
+    margin-top: -3px !important;
+}
+.reserve_error{
+    font-size:11px;
+    color: #bd1414;
+    font-weight: 600;
+}
+.custom-checkbox > label{
+    font-size: 12px;
+    font-weight: 700;
+
+}
+#imageLoading{
+    width: 50px;
+}
+.modal-content2{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.modal-body-result{
+    font-size: 15px;
+    font-weight: 700;
+}
+.bookButton, .reserve_submit{
+    padding: 9px;
+    background-color: var(--main);
+    color: var(--white);
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    letter-spacing: 1px;
+    transition: background-color 1s;
+}
+.reserve_submit:hover, .bookButton:hover{
+    background-color: rgb(56, 47, 47);
+}
+.go_back{
+    background-color: #5F6B81;
+    padding: 9px;
+    color: var(--white);
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 49px;
+    width: 150px;
+    letter-spacing: 1px;
+    transition: background-color 1s;
+    margin-left: 10px;
+}
+.go_back:hover{
+    background-color: #444A59;
+    color: white;
+}
+
+/* end modal css */
+
+.subscribe-caption {
+    font-size: 17px;
+}
+
+/* ------media */
+
+@media screen and (max-width: 1360px){
+    .dest1-abs{
+        left: 56.35%;
+    }
+    .dest2-abs{
+        left: 42.5%;
+    }
+    .dest3-abs{
+        left: 56.2%;
+    }
+}
+@media screen and (max-width: 1259px){
+    .dest1-abs{
+        left: 56.95%;
+    }
+    .dest2-abs{
+        left: 42%;
+    }
+    .dest3-abs{
+        left: 56.6%;
+    }
+}
+@media screen and (max-width: 1222px){
+    .dest1-abs, .dest2-abs, .dest3-abs{
+        display:none;
+    }
+    #plane{
+        display:none !important;
+    }
+    .abs-line{
+        display:none;
+    }
+    .main-directions-flex{
+        width: 80%;
+        margin:auto;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+        
+    }
+    .main-directions-item1{
+        display:none;
+    } 
+    .main-directions-item2{
+        width:100%;
+        text-align: center;
+        padding-left:0%;
+    }
+    .main-directions-item1-2{
+        display:none;
+    }
+    .about-text {
+        margin-right: 15px;
+    }
+    .main-directions-item1-3{
+        display:none;
+    }
+    .about-title {
+        margin-top: 30px;
+    }
+    .directions_img_fon{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 1321px){
+    .booking-flex-item1 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1273px){
+    .booking-padding {
+        padding: 1px 67px;
+    }
+    .special-offers-img1,.special-offers-img {
+        height: 271px;
+    }
+    .gallery_item {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 1081px){
+    .booking-flex-item1 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .main-directions-sec {
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 1002px){
+    .booking-padding {
+        padding: 0px 9px;
+    }
+    .booking-flex-item1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .gmap_canvas {
+        height: 462px;
+        width: 400px;
+        margin: auto;
+    }
+    .gallery_item {
+        height: 150px;
+    }
+    .gallery {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 900px){
+    .main-directions-flex{
+        padding-bottom: 15px;
+        
+    }
+    .contact_us {
+        flex-wrap: wrap;
+    }
+    .contact_inputs{
+        width: 100%;
+        margin-bottom: 33px;
+    }
+    .mapouter {
+        height: 403px;
+        width: 500px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 888px){
+    .booking-flex-item1 {
+        width: 55%;
+    }
+    .booking-flex-item2 {
+        width: 45%;
+    }
+    .subs-inp{
+        display: block;
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .subscribe-caption{
+        margin-bottom: 30px;
+    }
+    .about-section {
+        margin-bottom: 40px;
+    }
+    .inputs_contact {
+        width:100%;
+    }
+    .offerNavItem1, .tourismNavItem1 {
+        width: 15%;
+    }
+}
+@media screen and (max-width: 866px){
+    .booking-flex-item2{
+        display: none;
+    }
+    .booking-flex-item1{
+        width: 100%;
+    }
+    .booking-padding {
+        padding: 0px 224px;
+    }
+}
+@media screen and (max-width: 850px){
+    .directions_img_fon{
+        background-size: 100%;
+    }
+
+}
+@media screen and (max-width: 822px){
+    .booking-padding {
+        padding: 0px 188px;
+    }
+    /* .booking-flex{
+        background-image: url('../images/imgbooking-main-mob.jpg');  
+        background-size: cover;
+        background-position: center;
+    } */
+}
+@media screen and (max-width: 768px){
+.special-offers-flex, .tur-flex {
+    width: 92%;
+    flex-wrap: wrap;
+}
+.special-offers-item1, .tourism-item1{
+    width: 60%;
+    margin-bottom: 50px;
+}
+.about-section-item2{
+    display: none;
+}
+.about-section-item1{
+    width: 100%;
+}
+.tourism_subcaption {
+    font-size: 18px;
+}
+.tur_main_text {
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 744px){
+    .booking-padding {
+        padding: 0px 150px;
+    }
+}
+@media screen and (max-width: 665px){
+    .booking-padding {
+        padding: 0px 100px;
+    }
+    .directions_img_fon {
+        left: 0px;
+    }
+    .special-offers-item1, .tourism-item1 {
+        margin-bottom: 25px;
+    }
+    .offerNavItem1, .tourismNavItem1 {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 573px){
+    .booking-padding {
+        padding: 0px 70px;
+    }
+}
+@media screen and (max-width: 508px){
+    .booking-padding {
+        padding: 0px 30px;
+    }
+    .gmap_canvas {
+        height: 364px;
+        width: 318px;
+    }
+    .title_gallery {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 425px){
+    .booking-padding {
+        padding: 0px 3px;
+    }
+    /* .about-title {
+        margin-top: -30px;
+    } */
+    .special-offers-item1, .tourism-item1{
+        width: 80%;
+    }
+    .contact_us {
+        margin-bottom: 20px;
+    }
+    .directions_img_fon {
+        background-size: 150%;
+    }
+    .tourism_section {
+        padding-top: 0 !important;
+    }
+    .opinions_sec{
+        margin-top: 20px;
+    }
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery_item{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .special-offers-img1, .special-offers-img {
+        height: 200px;
+    }
+    .offerNavItem1, .tourismNavItem1 {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 374px){
+    .flex-book-inputs{
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .arrival-date, .departure-date{
+        width: 100%;
+    }
+    .gmap_canvas {
+        height: 300px;
+        width: 290px;
+    }
+}
+@media screen and (max-width: 350px){
+    .offerNavItem1, .tourismNavItem1 {
+        width: 35%;
+    }
+    .gmap_canvas {
+        height: 289px;
+        width: 258px;
+    }
+    .title_gallery {
+        margin-top: -73px;
+    }
+}
+

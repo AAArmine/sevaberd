@@ -1,0 +1,181 @@
+    .background_main{
+        width: 100%;
+        padding: 50px 50px;
+        background-image: url(../images/menu_texture.jpg);
+        background-repeat: repeat;
+        background-size: 150px;
+        position: relative;
+        color: white;
+    }
+    .main80{
+        width: 33%;
+        margin: auto;
+        text-align: center;
+    }
+    .main80 h1{
+        font-weight:900;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        pointer-events: none;
+        color: white;
+        font-size: 18px;
+        font-weight:lighter;
+    }
+    .form-control2{
+        padding-left: 50px;
+        background-color: transparent;
+        border: 1.2px solid white;
+        border-radius: 7px;
+        color: w;
+    }
+    .form-control2::placeholder{
+        font-weight: 500;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .nav-tabs{
+        margin: auto;
+        border: none!important;
+    }
+    .tab_menu a{
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .center{
+        margin-top: 50px;
+    }
+    .tab-content{
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .tab-pane >h3{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    #menu{
+        font-size: 14px;
+    }
+    .whole_menu_flex{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .whole_menu_item{
+        width: 30%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .whole_menu_img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: inset 1px 1px 15px rgb(12 12 12), 0px 0px 22px rgb(8 8 8);
+    }
+    .search_item{
+        width:100%;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .whole_menu_img_search {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        /* margin: auto; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: inset 1px 1px 15px rgb(12 12 12), 0px 0px 22px rgb(8 8 8);
+        
+    }
+    .search_item_item1{
+        width: 40%;
+    }
+    .search_item_item2{
+        width: 60%;
+    }
+    .search_name, .search_price{
+        font-weight: 900;
+    }
+    .search_name{
+        font-size: 15px;
+    }
+    .search_price{
+        font-size: 12px;
+    }
+
+    .search_desc{
+        font-size: 15px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    .whole_menu_name{
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .whole_menu_desc{
+        font-size: 13px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        font-weight: 500;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .whole_menu_border{
+        border-bottom: 1px solid #474444;
+        width: 80%;
+        margin: auto; 
+    }
+    .whole_menu_price{
+        font-weight: 500;
+        margin-top: 12px;
+    }
+    .active_menu{
+        color: var(--main);
+
+    }
+    .activePage{
+        background-color: var(--main);
+    }
+    .activePageIndex a{
+        color: var(--main);
+    }
+
+    .pagination-div {
+        display: table;
+        margin: auto;
+        padding-top: 70px;
+    }
+    .pagination-div a{
+        padding: 0px 6px 2px 7px;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+        box-shadow: 2px 2px 3px black ;
+    }
